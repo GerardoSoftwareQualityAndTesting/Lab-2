@@ -1,0 +1,16 @@
+package mx.tec.lab;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UnderstandingAssertsApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	@Testpublicvoid whenAssertingEquality_thenEqual() {    String expected = "Winter is coming";    String actual = "Winter is coming";assertEquals(expected, actual);    // assertEquals(expected, actual, "failure - strings are not equal");}
+	
+
+}
